@@ -1,0 +1,7 @@
+{
+    "memory": 3008,
+    "batch_size": 32,
+    "interop": 4,
+    "intraop": 2,
+    "forks": 4
+}

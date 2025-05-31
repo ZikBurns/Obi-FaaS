@@ -1,0 +1,19 @@
+lithops:
+    backend: aws_lambda
+    storage: aws_s3
+    log_level: DEBUG
+
+aws:
+    region: eu-west-1
+    access_key_id:
+    secret_access_key:
+    session_token:
+
+aws_lambda:
+    execution_role:
+    region_name: eu-west-1
+    runtime_include_function: True
+
+aws_s3:
+    storage_bucket:
+    region_name : eu-west-1
